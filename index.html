@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>YAY! It's BOGO</h2>
+
+        <div class="pricing-box">
+            <label class="option">
+                <input type="radio" name="unit" value="10" data-discount="10" checked>
+                <span class="unit">1 Unit <span class="discount">10% Off</span></span>
+                <span class="price">$10.00 USD</span>
+            </label>
+
+            <label class="option popular">
+                <input type="radio" name="unit" value="18" data-discount="20">
+                <span class="unit">2 Unit <span class="discount">20% Off</span></span>
+                <span class="price">$18.00 USD</span>
+                
+                <div class="size-color">
+                    <div>
+                        <label>#1</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select>
+                            <option>Black</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>#2</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select>
+                            <option>Black</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </label>
+
+            <label class="option">
+                <input type="radio" name="unit" value="24" data-discount="30">
+                <span class="unit">3 Unit <span class="discount">30% Off</span></span>
+                <span class="price">$24.00 USD</span>
+            </label>
+
+            <p class="delivery">Free Delivery</p>
+            <p class="total">Total: <span id="total-price">$18.00 USD</span></p>
+            <button class="add-to-cart">+ Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

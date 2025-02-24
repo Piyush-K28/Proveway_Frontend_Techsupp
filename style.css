@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #ff5b9f;
+}
+
+.pricing-box {
+    border: 2px solid #5ac;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.option input {
+    margin-right: 10px;
+}
+
+.unit {
+    font-weight: bold;
+}
+
+.discount {
+    background: #ff5b9f;
+    color: white;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.popular {
+    border: 2px solid #ff5b9f;
+    position: relative;
+}
+
+.popular::before {
+    content: "MOST POPULAR";
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: #ff5b9f;
+    color: white;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.size-color {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.size-color div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.delivery {
+    color: red;
+    font-weight: bold;
+    text-align: left;
+}
+
+.total {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    width: 100%;
+    background: #ff5b9f;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
